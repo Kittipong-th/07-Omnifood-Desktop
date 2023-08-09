@@ -10,6 +10,15 @@
         "link-name": "off"
       }
     ],
-    "button-type": "off"
+    "button-type": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-backdrop-filter"
+        ]
+      }
+    ],
+    "manifest-is-valid": "off"
   }
 }

@@ -52,6 +52,9 @@ html {
   /* / 16px * 0.625 = 62.5%  =10px */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does not work in Safari(apple)  */
+  /* scroll-behavior: smooth; */
 }
 body {
   font-family: "Rubik", sans-serif;
